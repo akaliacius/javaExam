@@ -1,0 +1,9 @@
+Explain how modifier final changes a variable declaration in Java.
+
+The final keyword denotes a value that cannot be changed once it has been assigned.
+Such value might be called Constant.
+By convenion, uppercase letters are used for names of constants.
+
+If Constant is declered outside method 'static' keyword is used:
+public static final int DAYS_PER_WEEK = 7;
+
