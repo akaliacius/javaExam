@@ -1,6 +1,6 @@
-package question6;
+package year2015;
 
-public class P15{
+public class Q6_2015{
     public static void main(String[] args){
         String s = "quick brown fox      jumps      over the lazy dog";
         printWords(s);

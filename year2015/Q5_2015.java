@@ -1,6 +1,6 @@
-package question5;
+package year2015;
 
-public class P15{
+public class Q5_2015{
     public static void main(String[] args){
         a();
         b();

@@ -1,6 +1,6 @@
-package question4;
+package year2015;
 
-public class P15{
+public class Q4_2015{
     public static void main(String[] args){
         double[] d = {0,3,4};
         System.out.println(getEuclideanNorm(d));
@@ -21,7 +21,7 @@ public class P15{
     }
 
     public static double[] getNormalised(double[] vec){
-        double euc = P15.getEuclideanNorm(vec);
+        double euc = getEuclideanNorm(vec);
         double[] result = new double[vec.length];
         for(int i = 0; i < vec.length; i++){
             result[i] = vec[i] / euc;

@@ -1,6 +1,6 @@
-package question7;
+package year2015;
 
-public class P15{
+public class Q7_2015{
     public static void main(String[] args){
         LoyaltyCard card = new LoyaltyCard("123456");
         card.collectRewards(26.99, 5);

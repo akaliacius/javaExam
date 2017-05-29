@@ -1,6 +1,6 @@
-package question3;
+package year2015;
 
-public class P15{
+public class Q3_2015{
     public static void main(String[] args){
         a();
         b();
@@ -12,7 +12,7 @@ public class P15{
             System.out.print(i / 2); 
         }
         System.out.println();
-    } // 8421 
+    } // output 8421 
 
     public static void b(){
         int q = 16;
@@ -21,7 +21,7 @@ public class P15{
             q = q / 2;
         }
         System.out.println();
-    } // 4210
+    } // output before changes 4210
 
     public static void c(){
         int v = 16;
@@ -30,7 +30,7 @@ public class P15{
             System.out.print(v);
         } while(v > 1);
         System.out.println();
-    } // 168421
+    } // output before changes 168421
 
 
 }
