@@ -2,35 +2,26 @@ package year2015;
 
 public class Q5_2015{
     public static void main(String[] args){
-        a();
-        b();
-        c();
+        for(int i = 0; i < 4; i++){
+            for(int j = 0; j < 4; j++){
+                if((i % 2 == 0 && j % 2 == 0) || (i % 2 == 1 && j % 2 == 1))
+                    System.out.print("w");
+                else
+                    System.out.print("b");
+            }
+            System.out.println();
+        }
     }
 
-    public static void a(){
-        for(int i = 16; i >= 2; i = i / 2){
-            System.out.print(i / 2); 
-        }
-        System.out.println();
-    } // 8421 
-
-    public static void b(){
-        int q = 16;
-        while(q > 1){
-            System.out.print(q / 2);
-            q = q / 2;
-        }
-        System.out.println();
-    } // 4210
-
-    public static void c(){
-        int v = 16;
-        do{
-            v /= 2;
-            System.out.print(v);
-        } while(v > 1);
-        System.out.println();
-    } // 168421
-
-
+    /*
+    *
+    * output:
+    *
+    * wbwb
+    * bwbw
+    * wbwb
+    * bwbw
+    *
+    */
 }
+
