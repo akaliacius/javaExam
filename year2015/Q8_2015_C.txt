@@ -1,0 +1,13 @@
+What is an interface type in Java? Explain the difference between a class and interface type
+
+An interface in the Java programming language is an abstract type that is used to specify a behaviour that classes must implement. 
+
+Interfaces are declared using the 'interface' keyword, and may only contain method signature and constant declarations (variable declarations that are declared to be both static and final). 
+
+All methods of an Interface do not contain implementation (method bodies) as of all versions below Java 8. 
+
+Starting with Java 8, default and static methods may have implementation in the interface definition.
+
+Interfaces cannot be instantiated, but rather are implemented. A class that implements an interface must implement all of the methods described in the interface, or be an abstract class. 
+
+Object references in Java may be specified to be of an interface type; in each case, they must either be null, or be bound to an object that implements the interface.

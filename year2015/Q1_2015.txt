@@ -4,4 +4,4 @@ Static methods are methods that do not operate on objects.
 Syntax: public static void staticMethod(){//method body}
 
 Instance method operate on objects of class.
-
+Syntax: public void instanceMethod(){//method body}
